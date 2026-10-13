@@ -1,0 +1,59 @@
+[
+  {
+    "meta": "Academia AI · 2025-26",
+    "title": "DigiLIB",
+    "desc": "An intelligent research assistant for academic libraries, exploring how far LLMs can go in making research genuinely easier to navigate. Pitched at the Bardusch Family IdeaMakers Challenge, 2026 (2nd place).",
+    "short": "An intelligent research assistant for academic libraries, exploring how far LLMs can go in making research genuinely easier to navigate.",
+    "featured": true,
+    "chips": ["llms", "research"],
+    "links": [{"label": "digilib.site", "href": "https://www.digilib.site"}]
+  },
+  {
+    "meta": "Software · AI · 2023",
+    "title": "AI Virtual Assistant",
+    "desc": "A Python virtual assistant built on OpenAI's API: context, tools, and real tasks rather than canned commands. An early, deliberate take on what an assistant could become.",
+    "short": "A Python virtual assistant built on OpenAI's API: context, tools, and real tasks rather than canned commands.",
+    "featured": true,
+    "home_links": [{"kind": "meta", "label": "2023"}],
+    "chips": ["python", "llm"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=VGZqJ9NiZMo"}]
+  },
+  {
+    "meta": "CBSE Science Fair · 2022",
+    "title": "School IoT",
+    "desc": "An IoT system designed for classrooms to save money on electricity, built and presented at the CBSE Science Fair 2022 with a working demo on video.",
+    "chips": ["iot", "energy"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=7vXU5q6TZhs"}]
+  },
+  {
+    "meta": "Machine learning · 2021",
+    "title": "Star Classifier",
+    "desc": "An early applied-ML project: classifying stars from data with a trained model; one of the builds that pointed everything toward AI.",
+    "chips": ["ml", "python"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=DVZ2UGb_E9I"}]
+  },
+  {
+    "meta": "Robotics · 2020",
+    "title": "My Rover Project",
+    "desc": "A rover built from the ground up and documented in a ten-minute walkthrough: wiring, drive, and control in one build.",
+    "short": "A rover built from the ground up and documented in a ten-minute walkthrough: wiring, drive, and control in one build.",
+    "featured": true,
+    "home_links": [{"kind": "meta", "label": "2020"}],
+    "chips": ["robotics", "embedded"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=usxDgWrFkJk"}]
+  },
+  {
+    "meta": "Automation · 2020",
+    "title": "Room Automation",
+    "desc": "A full automation pass over my own room: a four-channel relay board and an HC-05 Bluetooth module putting lights and fan under phone control; lived with daily for months while the bugs got worked out.",
+    "chips": ["relay", "bluetooth"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=16H1kkyzjUM"}]
+  },
+  {
+    "meta": "CBSE Science Fair · 2019",
+    "title": "Mini Greenhouse",
+    "desc": "The automated garden, evolved into a self-regulating mini greenhouse: soil, rain, and light sensors decide when to water. Presented at the CBSE Science Fair 2019, with the full build on video.",
+    "chips": ["arduino", "sensors"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=LDZ1opNNw-E"}]
+  }
+]

@@ -1,0 +1,64 @@
+<!--
+title: Amartya Sai Andra · Portfolio
+description: Amartya Sai Andra: Information Sciences & Technology at Penn State, Associate Application Consultant at IBM. Agentic AI, cloud tooling, and applied machine learning.
+scripts: globe.js
+-->
+
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-in">
+        <div>
+          <div class="dateline">
+            <span class="dot"></span>
+            <span class="meta">Portfolio · andralabs.org</span>
+          </div>
+          <h1>Solving real-world<br class="hb"> problems, one step<br class="hb"> at a time.</h1>
+          <p class="lede">I'm Amartya. This site is the record of what I've built: agentic AI systems, cloud tooling, applied ML, and a few hardware experiments.</p>
+          <div class="cta-row">
+            <a class="btn btn-solid" href="{{base}}projects/">See the projects</a>
+            <a class="btn btn-ghost" href="{{base}}about/">More about me</a>
+          </div>
+        </div>
+        <svg class="web" id="globe" viewBox="0 0 620 560" fill="none" aria-hidden="true">
+          <circle cx="310" cy="280" r="150" fill="#e8e5cd" opacity="0.5"/>
+          <circle cx="310" cy="280" r="215" fill="#e8e5cd" opacity="0.26"/>
+          <circle cx="310" cy="280" r="170" stroke="#263831" stroke-width="1" opacity="0.4"/>
+          <g stroke="#263831" stroke-width="1" fill="none">
+            <ellipse cx="310" cy="280" rx="170" ry="51" opacity="0.3"/>
+            <ellipse cx="310" cy="199" rx="147" ry="44.2" opacity="0.22"/>
+            <ellipse cx="310" cy="361" rx="147" ry="44.2" opacity="0.22"/>
+            <ellipse cx="310" cy="139.6" rx="85" ry="25.5" opacity="0.18"/>
+            <ellipse cx="310" cy="420.4" rx="85" ry="25.5" opacity="0.18"/>
+          </g>
+          <ellipse cx="310" cy="280" rx="215" ry="64.5" stroke="#263831" stroke-width="1" opacity="0.22" stroke-dasharray="3 7"/>
+          <g id="meridians"></g>
+          <g id="bodies"></g>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="strip">
+    <div class="wrap strip-in">
+      <span class="meta">Toolkit</span>
+      <div class="marks"><span>Python</span><span>LLMs</span><span>RAG</span><span>AWS</span><span>Docker</span><span>MCP</span><span>Linux</span><span>Git</span></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="wrap">
+      <div class="sec-head"><h2>Selected projects</h2><a class="more" href="{{base}}projects/">All projects →</a></div>
+      <div class="grid-3">
+        {{projects_featured}}
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-sm">
+    <div class="wrap">
+      <div class="sec-head"><h2>Experiments</h2><a class="more" href="{{base}}experiments/">Everything →</a></div>
+      <div class="rows">
+        {{experiments_rows}}
+      </div>
+    </div>
+  </div>

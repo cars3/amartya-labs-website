@@ -1,0 +1,59 @@
+[
+  {
+    "meta": "Embedded · 2020",
+    "title": "Automated Bin",
+    "desc": "An automatic bin built with an Arduino, an IR sensor, and a servo motor: a compact exercise in sensing the physical world and acting on it.",
+    "chips": ["arduino", "sensors"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=PVr0LJWucXs"}]
+  },
+  {
+    "meta": "Embedded · 2020",
+    "title": "Automated Garden",
+    "desc": "A self-tending garden on an Arduino Mega, with soil-moisture, rain, and light sensors deciding when to water. It later evolved into the mini greenhouse, now listed under Projects.",
+    "chips": ["arduino", "sensors"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=fWIk9wviI_k"}]
+  },
+  {
+    "meta": "Embedded · 2020",
+    "title": "Radar Project",
+    "desc": "A radar built from an Arduino Mega, an IR sensor, an LCD display, and a servo motor: sweep, range, and a live readout fed by continuous data.",
+    "row_order": 3,
+    "row_year": "2020",
+    "row_text": "Radar: sweep and range on an LCD",
+    "row_tag": "embedded",
+    "chips": ["arduino", "display"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=BsvJ_DkF-EU"}]
+  },
+  {
+    "meta": "Electronics · 2020",
+    "title": "12V → 5V DC Converter",
+    "desc": "A step-down converter built to run 5-volt microcontrollers inside 12-volt projects. The first project I ever posted, and a clean lesson in the fundamentals.",
+    "chips": ["electronics"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=2-7MSLcudnE"}]
+  },
+  {
+    "meta": "Tooling · 2022",
+    "title": "Marks Sender",
+    "desc": "A utility that reads marks from a spreadsheet and automatically emails them out to students. My first project with a public code repository.",
+    "row_order": 1,
+    "row_year": "2022",
+    "row_text": "Marks Sender: spreadsheet to email, automated",
+    "row_tag": "tooling",
+    "chips": ["python", "automation"],
+    "links": [
+      {"label": "watch", "href": "https://www.youtube.com/watch?v=FZE_AyLhl1M"},
+      {"label": "code", "href": "https://github.com/cars3/Marks-sender"}
+    ]
+  },
+  {
+    "meta": "Raspberry Pi · 2020",
+    "title": "Smart Security System",
+    "desc": "A home-security system built around a Raspberry Pi 3b+, with camera and sensing on a full Linux stack, and a practical grounding in embedded systems.",
+    "row_order": 2,
+    "row_year": "2020",
+    "row_text": "Smart Security: a Raspberry Pi security system",
+    "row_tag": "raspberry pi",
+    "chips": ["raspberry pi", "linux"],
+    "links": [{"label": "watch", "href": "https://www.youtube.com/watch?v=fFI8EGOUGUA"}]
+  }
+]

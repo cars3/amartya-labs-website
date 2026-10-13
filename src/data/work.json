@@ -1,0 +1,37 @@
+[
+  {
+    "group": "experience",
+    "period": "2026 to now",
+    "role": "Associate Application Consultant",
+    "org": "IBM",
+    "note": "Engineering an autonomous multi-agent framework with custom MCP servers for internal deal and project analysis; architecting an end-to-end unstructured-data ingestion pipeline powering a RAG assistant for a major U.S. public utility; building tool schemas for an Azure-native agentic system."
+  },
+  {
+    "group": "experience",
+    "period": "2025-2026",
+    "role": "Applied AI Intern, Data &amp; AI",
+    "org": "West Shore Home",
+    "note": "Built image-processing pipelines on OpenAI models that cut token usage while improving detection of damage and wet spaces; annotated 2,000+ images in Roboflow, lifting model accuracy from 72% to 85%; designed LLM + computer-vision workflows in n8n that turn images into structured outputs."
+  },
+  {
+    "group": "experience",
+    "period": "2025",
+    "role": "Undergraduate Research Assistant",
+    "org": "Penn State · College of IST, with Prof. Dinghao Wu",
+    "note": "Worked with graduate researchers on mathematical theorem proving with LLMs: fine-tuning an open-source model on a custom proof dataset on SSH research servers, and designing a radial-tree training architecture for more effective theorem solving."
+  },
+  {
+    "group": "leadership",
+    "period": "2025 to now",
+    "role": "Technology Lead",
+    "org": "AWS Student Builder Group · Penn State",
+    "note": "Launched Penn State's first cloud computing club; authored a project-based curriculum covering cloud fundamentals through AWS S3 and OpenSearch, and delivered workshops to 30+ students in the first two semesters."
+  },
+  {
+    "group": "leadership",
+    "period": "March 2026",
+    "role": "2nd Place · IdeaMakers Challenge",
+    "org": "Bardusch Family IdeaMakers Challenge",
+    "note": "Built and pitched a sustainable business model for DigiLIB; awarded $2,000 at the challenge."
+  }
+]
