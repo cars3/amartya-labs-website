@@ -41,7 +41,30 @@
         <span class="meta">MCP server · 2026</span>
         <h3>DigiLIB</h3>
         <p>The digital librarian, packaged as an MCP server. Search papers and books across six free sources and export a cited literature review as LaTeX, all from the agent you already use. No API keys required.</p>
-        <div class="cmd">uvx --from git+https://github.com/cars3/digilib-mcp digilib-mcp</div>
+        <p>Copy a line and paste it into your agent of choice. That's the whole setup.</p>
+        <div class="copyset">
+          <div class="copyblk">
+            <div class="copyhead">
+              <span class="meta">Claude Code</span>
+              <button class="copybtn" type="button">copy</button>
+            </div>
+            <div class="cmd" title="click to copy">claude mcp add digilib -- uvx --from git+https://github.com/cars3/digilib-mcp digilib-mcp</div>
+          </div>
+          <div class="copyblk">
+            <div class="copyhead">
+              <span class="meta">Codex</span>
+              <button class="copybtn" type="button">copy</button>
+            </div>
+            <div class="cmd" title="click to copy">codex mcp add digilib -- uvx --from git+https://github.com/cars3/digilib-mcp digilib-mcp</div>
+          </div>
+          <div class="copyblk">
+            <div class="copyhead">
+              <span class="meta">Any other agent</span>
+              <button class="copybtn" type="button">copy</button>
+            </div>
+            <div class="cmd" title="click to copy">Set up this MCP server for me: https://github.com/cars3/digilib-mcp (keyless, runs via uvx; setup guides are in the repo)</div>
+          </div>
+        </div>
         <p class="small">Works with Claude Code, Claude Desktop, Codex, Antigravity, Cursor, OpenCode, and any other MCP client. Per-agent setup guides live in the repository.</p>
         <div class="foot">
           <div class="chips"><span class="chip">python</span><span class="chip">mcp</span></div>

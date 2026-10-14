@@ -112,8 +112,16 @@ h3{font-size:1.35rem}
 .server:hover{border-color:var(--accent)}
 .server h3{font-size:clamp(1.5rem,2.4vw,2rem)}
 .server p{color:var(--muted);max-width:70ch}
-.cmd{border:1px solid var(--rule);background:var(--wash);padding:16px 18px;font-family:var(--font-mono);font-size:12.5px;color:var(--ink);overflow-x:auto;white-space:nowrap}
+.cmd{border:1px solid var(--rule);background:var(--wash);padding:16px 18px;font-family:var(--font-mono);font-size:12.5px;color:var(--ink);overflow-x:auto;white-space:nowrap;cursor:pointer}
 .server .foot{margin-top:2px;padding-top:16px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+
+/* copy to clipboard blocks */
+.copyset{display:flex;flex-direction:column;gap:18px}
+.copyhead{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:8px}
+.copyhead .meta{color:var(--muted)}
+.copybtn{font:inherit;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);background:transparent;border:1px solid var(--rule-strong);border-radius:2px;padding:5px 12px;cursor:pointer;transition:color .18s,border-color .18s}
+.copybtn:hover{border-color:var(--accent);color:var(--signal)}
+.copybtn.done{color:var(--signal);border-color:var(--signal)}
 
 /* footer */
 .footer{border-top:1px solid var(--rule);background:var(--wash)}
