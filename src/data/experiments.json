@@ -1,5 +1,12 @@
 [
   {
+    "meta": "Retrieval · 2026",
+    "title": "Agastya",
+    "desc": "The Agastya embeddings system: a decision model walks a document's table of contents section by section, and embeddings rank the leaves it keeps. No training and no labels, point it at a book and it navigates. Benchmarked against published STAIR baselines on the public SearchTome set.",
+    "chips": ["retrieval", "jev", "embeddinggemma"],
+    "links": [{"label": "code", "href": "https://github.com/cars3/agastya"}]
+  },
+  {
     "meta": "Embedded · 2020",
     "title": "Automated Bin",
     "desc": "An automatic bin built with an Arduino, an IR sensor, and a servo motor: a compact exercise in sensing the physical world and acting on it.",
