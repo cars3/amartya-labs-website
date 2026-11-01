@@ -18,7 +18,7 @@
   },
   {
     "meta": "Software · AI · 2025",
-    "title": "LLM Formula",
+    "title": "LLM Proof Generator",
     "desc": "Type a theorem, get a typeset proof back as a PDF. Two model calls in sequence: one writes the proof, the second only reformats it as LaTeX, then pdflatex compiles it. Written in February 2025, when a model could write LaTeX but could not hand you a file, so every hop from text to PDF was wired by hand.",
     "short": "Type a theorem, get a LaTeX proof as a PDF. Built in February 2025, before tool use: the path from model output to compiled file was wired by hand.",
     "chips": ["llm", "latex"],
