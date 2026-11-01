@@ -9,6 +9,22 @@
     "links": [{"label": "digilib.site", "href": "https://www.digilib.site"}]
   },
   {
+    "meta": "Software · AI · 2025",
+    "title": "WeatherDrive",
+    "desc": "Weather along the drive, at the time you will actually be there. The prototype samples the route geometry instead of just the two endpoints, asks for the forecast at each waypoint's real arrival hour, and has an LLM write the briefing a driver wants before setting out. Weather delays cost US roads close to $8.7 billion by 2012, and trucking still had no tool built for it.",
+    "short": "Weather along the drive at the time you will actually be there: route-shaped forecasts, plus an LLM briefing before you set out.",
+    "chips": ["forecasting", "routing"],
+    "links": [{"label": "github", "href": "https://github.com/cars3/weather-drive"}]
+  },
+  {
+    "meta": "Software · AI · 2025",
+    "title": "LLM Formula",
+    "desc": "Type a theorem, get a typeset proof back as a PDF. Two model calls in sequence: one writes the proof, the second only reformats it as LaTeX, then pdflatex compiles it. Written in February 2025, when a model could write LaTeX but could not hand you a file, so every hop from text to PDF was wired by hand.",
+    "short": "Type a theorem, get a LaTeX proof as a PDF. Built in February 2025, before tool use: the path from model output to compiled file was wired by hand.",
+    "chips": ["llm", "latex"],
+    "links": [{"label": "github", "href": "https://github.com/cars3/llm-formula-generator"}]
+  },
+  {
     "meta": "Software · AI · 2023",
     "title": "AI Virtual Assistant",
     "desc": "A Python virtual assistant built on OpenAI's API: context, tools, and real tasks rather than canned commands. An early, deliberate take on what an assistant could become.",
