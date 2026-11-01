@@ -3,6 +3,10 @@
     "meta": "Retrieval · 2026",
     "title": "Agastya",
     "desc": "The Agastya embeddings system: a decision model walks a document's table of contents section by section, and embeddings rank the leaves it keeps. No training and no labels, point it at a book and it navigates. Benchmarked against published STAIR baselines on the public SearchTome set.",
+    "row_order": 0,
+    "row_year": "2026",
+    "row_text": "Agastya: navigating a book by embeddings",
+    "row_tag": "retrieval",
     "chips": ["retrieval", "jev", "embeddinggemma"],
     "links": [{"label": "code", "href": "https://github.com/cars3/agastya"}]
   },

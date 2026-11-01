@@ -107,18 +107,25 @@ def build():
     fragments = {
         "{{LINKEDIN}}": site["linkedin"],
         "{{X}}": site["x"],
-        "{{projects_featured}}": "\n        ".join(
-            card_html(p, "short", "home_links" if p.get("home_links") is not None else "links")
-            for p in projects if p.get("featured")
+        # Home page shows the three most recent projects. projects.json is kept
+        # ordered newest first, so this is a head slice.
+        "{{projects_recent}}": "\n        ".join(
+            card_html(
+                p,
+                "short" if p.get("short") else "desc",
+                "home_links" if p.get("home_links") is not None else "links",
+            )
+            for p in projects[:3]
         ),
         "{{projects_all}}": "\n        ".join(card_html(p) for p in projects),
         "{{experiments_all}}": "\n        ".join(card_html(e) for e in experiments),
-        "{{experiments_rows}}": "\n        ".join(
+        # Three most recent experiments, by row_year then row_order.
+        "{{experiments_recent}}": "\n        ".join(
             row_html(e)
             for e in sorted(
                 (e for e in experiments if e.get("row_text")),
-                key=lambda e: e.get("row_order", 99),
-            )
+                key=lambda e: (-int(e.get("row_year", 0)), e.get("row_order", 99)),
+            )[:3]
         ),
         "{{work_rows}}": "\n        ".join(wrow_html(w) for w in work if w["group"] == "experience"),
         "{{leadership_rows}}": "\n        ".join(wrow_html(w) for w in work if w["group"] == "leadership"),

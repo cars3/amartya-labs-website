@@ -29,11 +29,12 @@ edit happens in exactly one place.
 
 ## Common edits
 
-- Add or change a project: `src/data/projects.json`. Set `"featured": true` plus a `"short"`
-  description to also show it on the home page. `"links"` render as the small links in each
-  card (`{"label": "watch", "href": "..."}`, or `{"kind": "meta", "label": "2023"}`).
-- Add an experiment: `src/data/experiments.json`. Give it `row_year` / `row_text` / `row_tag`
-  to also show it in the home page preview rows.
+- Add or change a project: `src/data/projects.json`. Keep the list ordered newest first:
+  the home page shows the three most recent entries. Give a project a `"short"`
+  description to control how it reads in a home card. `"links"` render as the small links
+  in each card (`{"label": "watch", "href": "..."}`, or `{"kind": "meta", "label": "2023"}`).
+- Add an experiment: `src/data/experiments.json`. Give it `row_year` / `row_text` /
+  `row_tag` to also show it in the home page preview rows (the three most recent).
 - Change a job or leadership item: `src/data/work.json`.
 - Change navigation, footer, or <head>: `src/layout/base.html`.
 - Change a page's copy or headings: the matching file in `src/pages/`.
@@ -45,8 +46,10 @@ edit happens in exactly one place.
   and asset paths use it, so the same build works at any URL prefix (custom domain root,
   GitHub Pages project sites under /repo/, localhost).
 - `{{LINKEDIN}}`, `{{X}}`  site links from site.json
-- `{{projects_all}}`, `{{projects_featured}}`  rendered project card grids
-- `{{experiments_all}}`, `{{experiments_rows}}`  rendered experiment cards / home rows
+- `{{projects_recent}}`, `{{projects_all}}`  rendered project card grids (home shows the
+  three most recent; `projects.json` is kept ordered newest first)
+- `{{experiments_all}}`, `{{experiments_recent}}`  rendered experiment cards / the three
+  most recent home rows (by `row_year`, then `row_order`)
 - `{{work_rows}}`, `{{leadership_rows}}`  rendered Work page rows
 
 ## Build & preview
