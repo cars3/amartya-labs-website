@@ -1,25 +1,25 @@
 [
   {
-    "meta": "Infrastructure · 2026",
-    "title": "Home Server",
-    "desc": "The machine behind everything else here: an i7-7700 with 16 GB of RAM and an RTX 2060 Super, two 512 GB SSDs mirrored in RAID 1 for data, and a separate 512 GB boot SSD. Set up with Tailscale for access from anywhere and a dedicated access point router, then wired up as the box that runs the apps, the storage, and the agents.",
-    "row_order": 0,
-    "row_year": "2026",
-    "row_text": "Home server: RAID storage and a local model endpoint",
-    "row_tag": "infrastructure",
-    "chips": ["linux", "raid", "docker", "tailscale"],
-    "links": []
-  },
-  {
     "meta": "Retrieval · 2026",
     "title": "Agastya",
     "desc": "The Agastya embeddings system: a decision model walks a document's table of contents section by section, and embeddings rank the leaves it keeps. No training and no labels, point it at a book and it navigates. Benchmarked against published STAIR baselines on the public SearchTome set.",
-    "row_order": 1,
+    "row_order": 0,
     "row_year": "2026",
     "row_text": "Agastya: navigating a book by embeddings",
     "row_tag": "retrieval",
     "chips": ["retrieval", "jev", "embeddinggemma"],
     "links": [{"label": "code", "href": "https://github.com/cars3/agastya"}]
+  },
+  {
+    "meta": "Infrastructure · 2026",
+    "title": "Home Server",
+    "desc": "The machine behind everything else here: an i7-7700 with 16 GB of RAM and an RTX 2060 Super, two 512 GB SSDs mirrored in RAID 1 for data, and a separate 512 GB boot SSD. Set up with Tailscale for access from anywhere and a dedicated access point router, then wired up as the box that runs the apps, the storage, and the agents.",
+    "row_order": 1,
+    "row_year": "2026",
+    "row_text": "Home server: RAID storage and a local model endpoint",
+    "row_tag": "infrastructure",
+    "chips": ["linux", "raid", "docker", "tailscale"],
+    "links": []
   },
   {
     "meta": "Embedded · 2020",
