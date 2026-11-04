@@ -2,8 +2,8 @@
   {
     "meta": "Retrieval · AI · 2026",
     "title": "Agastya RAG",
-    "desc": "Inspired by IBM's STAIR pipeline, Agastya RAG walks a document's table of contents with a single thinking process, then EmbeddingGemma ranks the leaves it keeps. The result is fast, high-efficiency gold-leaf retrieval on a single 8GB GPU, with no training, labels, or fine-tuning.",
-    "short": "Inspired by IBM's STAIR pipeline, Agastya RAG uses a single thinking process for fast, high-efficiency gold-leaf retrieval on one 8GB GPU.",
+    "desc": "Agastya RAG is a training-free, structure-aware retrieval system that helps AI agents navigate complex documents efficiently. Runs on a single 8GB GPU, and supports auditable retrieval without fine-tuning.",
+    "short": "Agastya RAG is a training-free, structure-aware retrieval system that helps AI agents navigate complex documents efficiently. Runs on a single 8GB GPU, and supports auditable retrieval without fine-tuning.",
     "chips": ["retrieval", "stair", "embeddinggemma", "8gb vram"],
     "links": [{"label": "code", "href": "https://github.com/cars3/agastya"}]
   },
