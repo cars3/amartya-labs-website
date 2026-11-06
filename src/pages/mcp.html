@@ -1,6 +1,6 @@
 <!--
 title: Amartya Sai Andra · MCP tools
-description: MCP servers by Amartya Sai Andra. The first is DigiLIB, a digital librarian for any AI agent.
+description: MCP servers by Amartya Sai Andra: DigiLIB, a digital librarian for any AI agent, and Agastya RAG, PDF retrieval for the agent you already use.
 active: mcp
 -->
 
@@ -8,7 +8,7 @@ active: mcp
     <div class="wrap">
       <span class="meta">Open tools</span>
       <h1 style="margin-top:14px">MCP tools</h1>
-      <p class="lede" style="margin-top:18px">Small, focused MCP servers I'm building. One job each, no telemetry, no accounts.</p>
+      <p class="lede" style="margin-top:18px">Small, focused MCP servers I'm building. One job each, no telemetry.</p>
 
       <article class="server" style="margin-top:52px">
         <span class="meta">MCP server · 2026</span>
@@ -28,6 +28,28 @@ active: mcp
         <div class="foot">
           <div class="chips"><span class="chip">python</span><span class="chip">mcp</span></div>
           <a class="wlink" href="https://github.com/cars3/digilib-mcp" target="_blank" rel="noopener">code ↗</a>
+        </div>
+      </article>
+
+      <article class="server">
+        <span class="meta">MCP server · 2026</span>
+        <h3>Agastya RAG</h3>
+        <p>The Agastya RAG retrieval system, packaged as an MCP server. Point it at a folder of PDFs with embedded bookmarks and it builds a section index, so an agent can pull the passages that answer a question instead of carrying the whole document in context.</p>
+        <p>Setup is a local install: clone the repository, install into a venv, then register the agastya command with your client. Per-agent configs live in agent-instructions/agents.</p>
+        <div class="copyset">
+          <div class="copyblk">
+            <div class="copyhead">
+              <span class="meta">Any other agent</span>
+              <button class="copybtn" type="button">copy</button>
+            </div>
+            <div class="cmd" title="click to copy">Set up this MCP server for me: https://github.com/cars3/agastya (local venv install; register the agastya command with --mcp; setup guides are in agent-instructions/agents)</div>
+          </div>
+        </div>
+        <p class="small">Works with Claude Code, Claude Desktop, Codex, Cursor, and any other MCP client. Needs Python 3.10 or newer; a CUDA GPU is recommended, though CPU inference works. The first query downloads the EmbeddingGemma model and may need Hugging Face access.</p>
+        <p class="small">The MCP query ranks sections and chunks with dense embeddings; the hierarchy walk from the benchmark runs is not part of this server yet.</p>
+        <div class="foot">
+          <div class="chips"><span class="chip">python</span><span class="chip">mcp</span><span class="chip">rag</span></div>
+          <a class="wlink" href="https://github.com/cars3/agastya" target="_blank" rel="noopener">code ↗</a>
         </div>
       </article>
     </div>
