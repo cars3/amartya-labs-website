@@ -2,7 +2,7 @@
   {
     "meta": "Decision Models · 2026",
     "title": "Agastya Decision RAG 2B",
-    "desc": "A 2B parameter decision model for retrieval routing: a Qwen3.5-2B fine-tuned with Unsloth's Clef decision head to answer typed questions about a supplied state with probabilities, built to decide things like which section to read next in a table-of-contents retrieval loop. The training record reports 66% accuracy on 150 held-out typed decisions, against 37.33% for the base model.",
+    "desc": "A Qwen3.5 2B finetuned on Unsloth on a Mac with QLoRA on LocalLLaMA/typed-decisions to become a decision model.",
     "row_order": 2,
     "row_year": "2026",
     "row_text": "Agastya Decision RAG 2B: typed decisions for retrieval",
