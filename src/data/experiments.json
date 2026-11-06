@@ -1,5 +1,16 @@
 [
   {
+    "meta": "Decision Models · 2026",
+    "title": "Agastya Decision RAG 2B",
+    "desc": "A 2B parameter decision model for retrieval routing: a Qwen3.5-2B fine-tuned with Unsloth's Clef decision head to answer typed questions about a supplied state with probabilities, built to decide things like which section to read next in a table-of-contents retrieval loop. The training record reports 66% accuracy on 150 held-out typed decisions, against 37.33% for the base model.",
+    "row_order": 2,
+    "row_year": "2026",
+    "row_text": "Agastya Decision RAG 2B: typed decisions for retrieval",
+    "row_tag": "models",
+    "chips": ["qwen3.5", "unsloth", "typed decisions", "retrieval"],
+    "links": [{"label": "model", "href": "https://huggingface.co/amartyaandra16/Agastya-RAG-2B"}]
+  },
+  {
     "meta": "Infrastructure · 2026",
     "title": "Home Server",
     "desc": "The machine behind everything else here: an i7-7700 with 16 GB of RAM and an RTX 2060 Super, two 512 GB SSDs mirrored in RAID 1 for data, and a separate 512 GB boot SSD. Set up with Tailscale for access from anywhere and a dedicated access point router, then wired up as the box that runs the apps, the storage, and the agents.",
